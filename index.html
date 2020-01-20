@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-teal">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-teal w3-text-white w3-xlarge">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-teal w3-text-white w3-xlarge">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-teal w3-text-white w3-xlarge">SERVICES & PRICING</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-teal w3-text-white w3-xlarge">CONTACT US</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag"></span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px"><br></span>
+    <img src="/energy-spa-1.gif" alt="">
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white"></span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide  w3-white w3-text-dark-gray w3-xxlarge">ABOUT OUR SPA</span></h5>
+    <p  class="w3-xlarge w3-text-dark-gray">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey w3-xlarge">
+      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+      <p>Chef, Coffeeist and Owner: Liam Brown</p>
+    </div>
+    <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p class="w3-xlarge w3-text-dark-gray"><strong>Hours of Operation:</strong> Monday-Sunday 9am-8pm</p>
+    <p class="w3-xlarge w3-text-dark-gray">*Appointments Recomended*</p>
+    <p class="w3-xlarge w3-text-dark-gray"><strong>Address:</strong> 5892 Magnolia Ave Riverside, CA 92506</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide  w3-white w3-text-dark-gray w3-xxlarge">SERVICES & PRICING</span></h5>
+
+  <p class="w3-center">Current Massage Services Offered.</p><br>
+  <div class="w3-third w3-margin-bottom">
+    <ul class="w3-ul w3-border w3-hover-shadow">
+      <li class="w3-theme w3-teal">
+        <p class="w3-xlarge w3-center w3-teal">Swedish Massage</p>
+      </li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>30 Mins</b> $40.00</li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>60 Mins</b> $65.00</li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>90 Mins</b> $95.00</li>
+    </ul>
+  </div>
+  <div class="w3-third w3-margin-bottom">
+    <ul class="w3-ul w3-border w3-hover-shadow">
+      <li class="w3-theme w3-teal">
+        <p class="w3-xlarge w3-center w3-teal">Deep Tissue</p>
+      </li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>30 Mins</b> $50.00</li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>60 Mins</b> $75.00</li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>90 Mins</b> $105.00</li>
+    </ul>
+  </div>
+  <div class="w3-third w3-margin-bottom">
+    <ul class="w3-ul w3-border w3-hover-shadow">
+      <li class="w3-theme w3-teal">
+        <p class="w3-xlarge w3-center w3-teal">Sports Massage</p>
+      </li>
+      <li class="w3-padding-16 w3-gray"><b>*</b> </li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>30 Mins</b> $50.00</li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>60 Mins</b> $75.00</li>
+    </ul>
+  </div>
+  <div class="w3-third w3-margin-bottom">
+    <ul class="w3-ul w3-border w3-hover-shadow">
+      <li class="w3-theme w3-teal">
+        <p class="w3-xlarge w3-center w3-teal">Prenatal Massage</p>
+      </li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>30 Mins</b> $50.00</li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>60 Mins</b> $75.00</li>
+      <li class="w3-padding-16 w3-gray"><b>*</b> </li>
+    </ul>
+  </div>
+  <div class="w3-third w3-margin-bottom">
+    <ul class="w3-ul w3-border w3-hover-shadow">
+      <li class="w3-theme w3-teal">
+        <p class="w3-xlarge w3-center w3-teal">Foot Massage</p>
+      </li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>30 Mins</b> $25.00</li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>60 Mins</b> $55.00</li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>Add Foot Bath</b> $10.00</li>
+    </ul>
+  </div>
+  <div class="w3-third w3-margin-bottom">
+    <ul class="w3-ul w3-border w3-hover-shadow">
+      <li class="w3-theme w3-teal">
+        <p class="w3-xlarge w3-center w3-teal">Reflexology</p>
+      </li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>30 Mins</b> $35.00</li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>60 Mins</b> $65.00</li>
+      <li class="w3-padding-16 w3-text-dark-gray"><b>Add Foot Bath</b> $10.00</li>
+    </ul>
+  </div>
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide  w3-white w3-text-dark-gray w3-xxlarge">CONTACT US</span></h5>
+    <p>Find us at some address at some place.</p>
+    <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+    <p class="w3-xlarge w3-text-dark-gray"><span class="w3-tag w3-white w3-xlarge w3-text-dark-gray">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p class="w3-xlarge w3-text-dark-gray"><strong>Reserve</strong> A service today!</p>
+    <address class="w3-xlarge w3-text-dark-gray">
+      Phone: <a> company phone</a> <br>
+      Email: <a href="mailto: healingenergyspa1@gmail.com" style="color: black;">healingenergyspa1@gmail.com</a> <br>
+      Visit Our Instagram at:<br>
+      Address: 5892 Magnolia Ave Riverside, CA 92506 <br>
+      </address>
+      
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+</body>
+</html>
